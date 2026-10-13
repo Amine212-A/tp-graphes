@@ -9,7 +9,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - name: Lancement graphviz
-        run: ./run2.sh
+        run: bash ./run2.sh
       - name: Upload du resultat
         uses: actions/upload-artifact@v4
         with:
